@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/clockbg"
+            android:paddingLeft="20dp" >
+
+            <TextView android:layout_width="wrap_content" android:text="00:" android:id="@+id/hr" android:layout_height="wrap_content" android:textSize="16pt" android:textColor="#FFFFFF"></TextView>
+            <TextView android:layout_width="wrap_content" android:text="00:" android:id="@+id/mn" android:layout_height="wrap_content" android:textSize="16pt" android:textColor="#FFFFFF"></TextView>
+            <TextView android:layout_width="wrap_content" android:text="00" android:id="@+id/sc" android:layout_height="wrap_content" android:textSize="16pt" android:textColor="#FFFFFF"></TextView>
+        </LinearLayout>
+    
+    <TextView android:text="Digital Clock" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_below="@+id/btnset" android:layout_marginTop="10dp" android:layout_centerHorizontal="true"></TextView>
+</RelativeLayout><!-- From: file:/E:/eclipsews/SRM_BroadcastReceiverTutorial2/app/src/main/res/layout/main.xml -->
